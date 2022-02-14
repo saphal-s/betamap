@@ -1,0 +1,45 @@
+.event-head{
+    padding: 8px;
+    background: #f4f6f7;
+}
+
+.event-head .event-text-home{
+    font-size: 17px;
+    background-color: #22aad3;
+    padding: 0px 10px;
+    color: #fff;
+    margin-top: 13px;
+}
+.event-head .event-text-event{
+    font-size: 17px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+
+.event-body{
+    width: 80%;
+    margin: auto;
+}
+.event-body h6 i{
+    color: #22aad3;
+    font-size: 19px;
+    margin-right: 10px;
+}
+.event-cards{
+    margin: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.event-body-head p{
+    font-size: 16px;
+}
+.event-body-head a{
+    color: #22aad3;
+}
+
+@media (max-width: 924px) {
+    .event-body{
+        width: 90%;
+        margin: auto;
+    }
+}

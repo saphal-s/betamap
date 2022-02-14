@@ -1,0 +1,148 @@
+.about-container{
+    padding: 8px;
+    background: #f4f6f7;
+}
+
+.about-container .about-text-home{
+    font-size: 17px;
+    background-color: #22aad3;
+    padding: 0px 10px;
+    color: #fff;
+    margin-top: 13px;
+}
+.about-container .about-text-about{
+    font-size: 17px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+
+.about-us-header h3{
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+.about-us-header h3::after{
+    content: "";
+    display: block; 
+    margin:auto;
+    width: 85px;
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+.about-us-text p{
+text-align: justify;
+border: 1px solid #22aad3;
+padding: 50px 40px;
+}
+.about-us-img img{
+    border: 10px solid #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+/* mission */
+
+.mission-head h3{
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+.mission-head h3::after{
+    content: "";
+    display: block; 
+    margin:auto;
+    width: 105px;
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+.mission-content img{
+    border: 10px solid #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.mission-content .texta{
+    text-align: justify;
+    padding-top: 15px;
+}
+
+/* objective */
+
+.objective{
+    background: url('../../public/images/objective.jpg')no-repeat;
+    background-size: cover;
+}
+
+.objective-head h3{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.objective-head h3::after{
+    content: "";
+    display: block; 
+    margin:0;
+    width: 105px;
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+.objec{
+    border: 1px solid #22aad3;
+}
+.objec p{
+    font-size: 16px;
+    color: #9b9b9b;
+}
+.objec li{
+    font-size: 16px;
+    padding-top: 7px;
+    list-style: none;
+}
+.objec li i{
+    color: #22aad3;
+}
+.mission-objective{
+    background-color: #F2F3F8;
+}
+
+
+/* meet our team */
+
+.team-header h3{
+        font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.team-header h3::after{
+    content: "";
+    display: block; 
+    margin:auto;
+    width: 145px;
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+.team-section{
+    width: 80%;
+    margin: auto;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.team-card{
+    height: 300px;
+    width: 280px;
+    margin: 0px 5px 20px 5px;
+    text-align: center; 
+}
+.team-card img{
+height: 180px;
+width: 180px;
+border-radius: 50%;
+}
+.team-card h5:hover{
+    color: #22aad3;
+    cursor: pointer;
+}
+.team-card p{
+    color: #9b9b9b;
+}

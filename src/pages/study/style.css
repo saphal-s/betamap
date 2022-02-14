@@ -1,0 +1,131 @@
+
+.australia-head{
+    background: url('../../../public/images/countries/aus0.png')no-repeat;
+    background-size: cover;
+}
+.usa-head{
+    background: url('../../../public/images/countries/usa0.png')no-repeat;
+    background-size: cover;
+}
+.canada-head{
+    background: url('../../../public/images/countries/canada0.png')no-repeat;
+    background-size: cover;
+}
+.newz-head{
+    background: url('../../../public/images/countries/newz0.png')no-repeat;
+    background-size: cover;
+}
+.japan-head{
+    background: url('../../../public/images/countries/japan0.png')no-repeat;
+    background-size: cover;
+}
+.europe-head{
+    background: url('../../../public/images/countries/europe1.png')no-repeat;
+    background-size: cover;
+}
+.uk-head{
+    background: url('../../../public/images/countries/england0.png')no-repeat;
+    background-size: cover;
+}
+.study-container .study-text-home{
+    font-size: 16px;
+    background-color: #22aad3;
+    padding: 0px 10px;
+    color: #fff;
+    margin-top: 13px;
+}
+.sab{
+    font-size: 17px;
+    padding: 0px 10px;
+    margin-top: 13px; 
+    color: #fff;
+}
+.study-container .study-text-study{
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 0px;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+
+.study-body {
+    width: 80%;
+    margin: auto;
+}
+.study-body svg {
+    fill: #eaebee;
+}
+.study-body .quote-body p{
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.study-body h3{
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+.study-body h3::after{
+    content: "";
+    display: block; 
+    margin:auto;
+    width: 125px;
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+
+.study-body .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #fff;
+    text-shadow: 0 0 0.25px currentcolor;
+    background-color: #22aad3;
+    /* padding: 10px 15px; */
+    font-weight: 600;
+    font-size: 16px;  
+}
+
+.study-body .ant-tabs-tab.ant-tabs-tab-active{
+    color: #fff;
+    text-shadow: 0 0 0.25px currentcolor;
+    background-color: #22aad3;
+    /* sspadding: 10px 15px; */
+    font-weight: 600;
+    font-size: 16px;  
+}
+.study-body .ant-tabs-tab{
+    border-bottom: 1px solid #22aad3;
+}
+
+.study-body .ant-tabs-tab:hover {
+    color: #fff;
+    text-shadow: 0 0 0.25px currentcolor;
+    background-color: #22aad3;
+    /* padding: 0px 15px; */
+    font-weight: 600;
+    font-size: 16px;
+}
+.study-body .ant-tabs-tab .ant-tabs-tab-btn{
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media (max-width: 924px) {
+    .study-body .quote-body p{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .study-body .ant-tabs {
+        flex-direction: column;
+    }
+    .study-body h3{
+        
+        font-size: 25px;
+       
+    }
+    .study-body {
+        width: 95%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,106 @@
+.testimo{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.testimo .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #ccc;
+}
+.testimo .slick-dots li button{
+    color:#fff;
+}
+.slick-dots li button:before{
+    color: #fff;
+}
+.inner-card{
+    margin: 30px;
+}
+.quote-opens{
+   position: absolute;
+   margin-top: -12px;
+   margin-left: 35px;
+}
+
+.quote-opens > i {
+    font-size: 30px;
+    color: #22aad3;
+}
+.cds-footer-img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.cds-footer-text{
+    margin-left: 15px;
+    margin-top: 35px;
+}
+.cds-footer-text h6{
+    color: #fff;  
+}
+.cds-footer-text p{
+    color: #22aad3;
+    font-style: italic;
+}
+.cds-footer-img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.cards p{
+    color: #fff;
+    text-align: justify;
+}
+.cards {
+    position: relative;
+    padding: 40px 50px;
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+    border-color: #e5e7e9;
+}
+.cards:before {
+    left: 10px;
+    width: 46px;
+    border-width: 1px 1px 0 0;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    height: 10px;
+    border-style: solid;
+    border-color: #e5e7e9;
+    background-color: transparent;
+}
+.cards:after {
+    right: 10px;
+    width: calc(100% - 66px);
+    border-width: 1px 0 0 1px;
+    -webkit-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transform: skew(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+.cards:after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    height: 10px;
+    border-style: solid;
+    border-color: #e5e7e9;
+    background-color: transparent;
+}
+
+@media (max-width: 924px) {
+    .testimo{
+        width: 100%;
+    }
+}

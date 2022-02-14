@@ -1,0 +1,76 @@
+.service-container{
+    padding: 8px;
+    background: #f4f6f7;
+}
+
+.service-container .service-text-home{
+    font-size: 17px;
+    background-color: #22aad3;
+    padding: 0px 10px;
+    color: #fff;
+    margin-top: 13px;
+}
+.service-container .service-text-service{
+    font-size: 17px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+
+.service-section h3{
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+.service-section h3::after{
+    content: "";
+    display: block; 
+    margin:auto;
+    width: 135px;
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+
+.service-section li{
+    list-style: none;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.service-section li i{
+    color: #22aad3;
+}
+
+.service-footer button{
+    height: 50px;
+    width: 160px;
+    background-color: transparent;
+    border: 4px solid #22aad3;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.slink{
+    color: #fff;
+}
+.carousal-button{
+    height: 50px;
+    width: 160px;
+    margin: auto;
+     background-color: #22aad3; 
+}
+.cbh :hover{
+    background-color:transparent;
+    color: #22aad3;
+}
+.service-footer{
+    padding: 20px 0px;
+    background-color: #F2F3F8;
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-footer h3{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 5px;
+}

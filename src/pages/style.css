@@ -1,0 +1,241 @@
+/* home */
+
+.map-welcome{
+    width: 85%;
+    margin: auto;
+}
+.map-welcome img{
+    width: 500px;
+    height: 580px;
+    float: right;
+}
+.map-welcome p{
+    text-align: justify;
+    font-size: 15px;
+}
+.map-welcome h3{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+.map-welcome h3::after{
+    content: "";
+    display: block; 
+    margin:0;
+    width: 230px; 
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+
+
+/* study selection */
+
+.study-selection{
+        width: 80%;
+        margin: auto;
+}
+.study-selection .study-title{
+    text-align: center;
+}
+.study-selection h3{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+.study-selection h3::after{
+    content: "";
+    display: block; 
+    margin:0 auto;
+    width: 230px; 
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+.study-selection .selection-img{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 253px;
+    /* background-color: rgba(45, 184, 183, 0.94);; */
+}
+.study-selection .selection-img img{
+    height: 253px;
+}
+.sec-con{
+    display: none;
+}
+.sec-con h5{
+    color: #fff;
+    text-align: center;
+}
+.sec-con .select-text{
+    padding-top: 110px;
+}
+.selection-img:hover .sec-con{
+    display: block;
+    position: absolute;
+    top: 0;
+    background-color: rgba(45, 184, 183, 0.94);;
+    height: 100%;
+    width: 100%;
+    opacity: .95;
+}
+.sec-con .select-text::after{
+    content: "";
+    display: block; 
+    margin:0 auto;
+    width: 100px; 
+    padding-top: 7px; 
+    border-bottom: 2px solid #fff; 
+}
+
+
+/* chair man section */
+
+
+.chairman-section{
+   background-color: #F2F3F8;
+}
+/* .chairman-section .row{
+width: %;
+margin: auto;
+} */
+
+.chairman-section .chair-man-img img{
+    border: 10px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.chairman-section .chairman-text{
+    text-align: justify;
+}
+.chairman-section .chairman-text p{
+    color: #9b9b9b;
+}
+.coose-image{
+    height: auto;
+    width: 100%;
+    background:url('../../public/images/choose.jpg')no-repeat;
+    background-size: cover;
+}
+.chairman-section .why-us{
+    border: 1px solid #9b9b9b;
+}
+
+.chairman-section .why-us h3{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.chairman-section .why-us h3::after{
+    content: "";
+    display: block; 
+    margin:0;
+    width: 130px; 
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+.chairman-section .why-us h6{
+    color: #fff;
+    font-size: 22px;
+}
+.chairman-section .why-us p{
+    color: #9b9b9b;
+}
+
+
+/* latest News */
+
+.latest-news{
+    width: 90%;
+    margin: auto;
+} 
+.news-card{
+    justify-content: center;
+    align-items: center;
+}
+.news-head h3{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news-head h3::after{
+    content: "";
+    display: block; 
+    margin:auto;
+    width: 100px; 
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+.latest-news .card  {
+    border-radius: 0;
+    margin: 0px 5px 30px 5px ;
+}
+.latest-news .card img{
+    border-radius: 0;
+}
+.latest-news .card h5{
+    font-size: 17px;
+}
+.latest-news .card p{
+    color: #9b9b9b;
+    padding-top: 15px;
+}
+.latest-news .card p span{
+    color:#000;
+}
+.latest-news .card img{
+    height: 190px;
+}
+.latest-news .card {
+    width: 17rem;
+}
+.latest-news .news-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+/* Testimonials */
+
+.testimonials{
+    background: url('../../public/images/est.png')no-repeat;
+    background-size: cover;
+}
+
+.testimonials h3{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.testimonials h3::after{
+    content: "";
+    display: block; 
+    margin:auto;
+    width: 100px; 
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+
+@media (max-width: 1324px) {
+    .latest-news{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1124px) {
+    .map-welcome{
+        width: 100%;
+    }
+    .study-selection{
+        width: 90%;
+    }
+}
+@media (max-width: 824px) {
+    .map-welcome h3,.study-selection h3{
+        font-size: 20px;
+        padding-bottom: 3px;
+    }
+    .map-welcome h3::after ,.study-selection h3::after{
+        width: 130px; 
+        padding-top: 7px; 
+    }
+    .chairman{
+        padding: 0px 50px;
+    }
+}

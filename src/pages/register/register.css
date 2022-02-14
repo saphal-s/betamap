@@ -1,0 +1,105 @@
+.register-container{
+    padding: 8px;
+    background: #f4f6f7;
+}
+
+.register-container .register-text-home{
+    font-size: 17px;
+    background-color: #22aad3;
+    padding: 0px 10px;
+    color: #fff;
+    margin-top: 13px;
+}
+.register-container .register-text-register{
+    font-size: 17px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+
+.register-head h3{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+.register-head h3::after{
+    content: "";
+    display: block; 
+    margin:0;
+    width: 165px;
+    padding-top: 7px; 
+    border-bottom: 3px solid #22aad3; 
+}
+.register-body{
+    width: 80%;
+    margin: auto;
+}
+
+.register-form input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+.register-form h5{
+    color: #a3a3a3;
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.radio-input label{
+font-weight: 600;
+color: #a3a3a3;
+}
+
+.register-form input[type="radio"] {
+    display: none;
+  }
+
+.register-form input[type="radio"] + *::before {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: gray;
+    margin-bottom: 3px;
+  }
+.register-form input[type="radio"]:checked + *::before {
+    background: radial-gradient(#fff 0%, #fff 40%, #22aad3 50%, #22aad3);
+    border-color: #22aad3;
+  }
+.register-form input[type="radio"]:checked + * {
+    color: #22aad3;
+  }
+
+  .text-area textarea{
+      border: none;
+      background-color:#f2f2f2;
+      padding: 20px;
+      outline: navajowhite;
+  }
+  .reg-button button{ 
+    background-color: #22aad3;
+    outline:none;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    width: 170px;
+    height: 50px;
+  }
+  .register-form{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  
+
+  @media (max-width: 924px) {
+    .register-body{
+        width: 95%;
+        margin: auto;
+    }
+}
