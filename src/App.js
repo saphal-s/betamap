@@ -7,19 +7,19 @@ import Headers from './components/nav/header/Headers';
 import ScrollButton from './components/nav/scroll/ScrollButton';
 
 import Home from './pages/Home';
-import About from './pages/About';
-import Service from './pages/Service';
-import Events from './pages/Events';
-import Course from './pages/Course';
-import Register from './pages/register/Register';
-import Contact from './pages/contact/Contact';
-import Australia from './pages/study/Australia';
-import Usa from './pages/study/Usa';
-import Canada from './pages/study/Canada';
-import Newzealand from './pages/study/Newzealand';
-import Japan from './pages/study/Japan';
-import Europe from './pages/study/Europe';
-import Uk from './pages/study/Uk';
+// import About from './pages/About';
+// import Service from './pages/Service';
+// import Events from './pages/Events';
+// import Course from './pages/Course';
+// import Register from './pages/register/Register';
+// import Contact from './pages/contact/Contact';
+// import Australia from './pages/study/Australia';
+// import Usa from './pages/study/Usa';
+// import Canada from './pages/study/Canada';
+// import Newzealand from './pages/study/Newzealand';
+// import Japan from './pages/study/Japan';
+// import Europe from './pages/study/Europe';
+// import Uk from './pages/study/Uk';
 
 
 function App() {
@@ -29,19 +29,20 @@ function App() {
       <Headers />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/about-us" component={About} />
-        <Route path="/services" component={Service} />
-        <Route path="/events" component={Events} />
-        <Route path="/courses" component={Course} />
-        <Route path="/contact-us" component={Contact} />
-        <Route path="/register" component={Register} />
-        <Route path="/study-australia" component={Australia} />
-        <Route path="/study-usa" component={Usa} />
-        <Route path="/study-canada" component={Canada} />
-        <Route path="/study-newzealand" component={Newzealand} />
-        <Route path="/study-japan" component={Japan} />
-        <Route path="/study-europe" component={Europe} />
-        <Route path="/study-uk" component={Uk} />
+        <Route exact path="" component={Home} />
+        {/* <Route exact path="/about-us" component={About} />
+        <Route exact path="/services" component={Service} />
+        <Route exact path="/events" component={Events} />
+        <Route exact path="/courses" component={Course} />
+        <Route exact path="/contact-us" component={Contact} />
+        <Route exact path="/register" component={Register} />
+        <Route exact path="/study-australia" component={Australia} />
+        <Route exact path="/study-usa" component={Usa} />
+        <Route exact path="/study-canada" component={Canada} />
+        <Route exact path="/study-newzealand" component={Newzealand} />
+        <Route exact path="/study-japan" component={Japan} />
+        <Route exact path="/study-europe" component={Europe} />
+        <Route exact path="/study-uk" component={Uk} /> */}
       </Switch>
       <Footer />
       <ScrollButton />
