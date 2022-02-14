@@ -8,18 +8,18 @@ import ScrollButton from './components/nav/scroll/ScrollButton';
 
 import Home from './pages/Home';
 import About from './pages/About';
-// import Service from './pages/Service';
-// import Events from './pages/Events';
-// import Course from './pages/Course';
-// import Register from './pages/register/Register';
-// import Contact from './pages/contact/Contact';
-// import Australia from './pages/study/Australia';
-// import Usa from './pages/study/Usa';
-// import Canada from './pages/study/Canada';
-// import Newzealand from './pages/study/Newzealand';
-// import Japan from './pages/study/Japan';
-// import Europe from './pages/study/Europe';
-// import Uk from './pages/study/Uk';
+import Service from './pages/Service';
+import Events from './pages/Events';
+import Course from './pages/Course';
+import Register from './pages/register/Register';
+import Contact from './pages/contact/Contact';
+import Australia from './pages/study/Australia';
+import Usa from './pages/study/Usa';
+import Canada from './pages/study/Canada';
+import Newzealand from './pages/study/Newzealand';
+import Japan from './pages/study/Japan';
+import Europe from './pages/study/Europe';
+import Uk from './pages/study/Uk';
 
 
 function App() {
@@ -30,8 +30,8 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="" component={Home} />
-         <Route exact path="/about-us" component={About} />
-        {/*<Route exact path="/services" component={Service} />
+        <Route exact path="/about-us" component={About} />
+        <Route exact path="/services" component={Service} />
         <Route exact path="/events" component={Events} />
         <Route exact path="/courses" component={Course} />
         <Route exact path="/contact-us" component={Contact} />
@@ -42,7 +42,7 @@ function App() {
         <Route exact path="/study-newzealand" component={Newzealand} />
         <Route exact path="/study-japan" component={Japan} />
         <Route exact path="/study-europe" component={Europe} />
-        <Route exact path="/study-uk" component={Uk} /> */}
+        <Route exact path="/study-uk" component={Uk} />
       </Switch>
       <Footer />
       <ScrollButton />
