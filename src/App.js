@@ -30,8 +30,6 @@ function App() {
       <Headers />
       <Switch>
         <Route exact path="/betamap" component={Home} />
-        <Route exact path=" " component={Home} />
-        <Route exact path="/" component={Home} />
         <Route exact path="/about-us" component={About} />
         <Route exact path="/services" component={Service} />
         <Route exact path="/events" component={Events} />
