@@ -7,7 +7,7 @@ import Headers from './components/nav/header/Headers';
 import ScrollButton from './components/nav/scroll/ScrollButton';
 
 import Home from './pages/Home';
-// import About from './pages/About';
+import About from './pages/About';
 // import Service from './pages/Service';
 // import Events from './pages/Events';
 // import Course from './pages/Course';
@@ -30,8 +30,8 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="" component={Home} />
-        {/* <Route exact path="/about-us" component={About} />
-        <Route exact path="/services" component={Service} />
+         <Route exact path="/about-us" component={About} />
+        {/*<Route exact path="/services" component={Service} />
         <Route exact path="/events" component={Events} />
         <Route exact path="/courses" component={Course} />
         <Route exact path="/contact-us" component={Contact} />
