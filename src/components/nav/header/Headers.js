@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 import logo from '../../../img/logo.png'
 import { Modal, Button} from 'antd';
 import './style.css';

@@ -8,6 +8,7 @@ import ScrollButton from './components/nav/scroll/ScrollButton';
 
 import Home from './pages/Home';
 import About from './pages/About';
+
 import Service from './pages/Service';
 import Events from './pages/Events';
 import Course from './pages/Course';
@@ -28,8 +29,9 @@ function App() {
       <Headerf />
       <Headers />
       <Switch>
+        <Route exact path="/betamap" component={Home} />
+        <Route exact path=" " component={Home} />
         <Route exact path="/" component={Home} />
-        <Route exact path="" component={Home} />
         <Route exact path="/about-us" component={About} />
         <Route exact path="/services" component={Service} />
         <Route exact path="/events" component={Events} />
